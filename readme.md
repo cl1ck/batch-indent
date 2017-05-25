@@ -8,7 +8,7 @@ A cli tool to change the indentation type in multiple files.
 
 ## Usage
 
-`batch-indent -p ./src/**/*.js -f 3-spaces -t tabs`
+`batch-indent -p "./src/**/*.js" -f 3-spaces -t tabs`
 
 Possible arguments are:
 
