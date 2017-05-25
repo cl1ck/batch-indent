@@ -1,0 +1,27 @@
+{
+  "name": "batch-indent",
+  "version": "1.0.0",
+  "description": "A cli tool to change the indentation type in multiple files.",
+  "files": [
+    "index.js",
+    "tools.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./**/*.test.js"
+  },
+  "author": "thejsn",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^4.0.4",
+    "detect-indent": "^5.0.0",
+    "glob": "^7.1.2"
+  },
+  "bin": {
+    "batch-indent": "index.js"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.3.0"
+  }
+}
